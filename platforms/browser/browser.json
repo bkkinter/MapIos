@@ -1,0 +1,44 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-googlemaps": {
+            "PACKAGE_NAME": "com.rodlover.map"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.rodlover.map"
+        },
+        "com.googlemaps.ios": {
+            "PACKAGE_NAME": "com.rodlover.map"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-googlemaps/www/googlemaps-cdv-plugin.js",
+            "id": "cordova-plugin-googlemaps.cordova-plugin-googlemaps",
+            "pluginId": "cordova-plugin-googlemaps",
+            "clobbers": [
+                "cordova-plugin-googlemaps"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-googlemaps/www/googlemaps-cdv-plugin.js",
+            "id": "cordova-plugin-googlemaps.cordova-plugin-googlemaps",
+            "pluginId": "cordova-plugin-googlemaps",
+            "clobbers": [
+                "cordova-plugin-googlemaps"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-googlemaps": "1.4.0",
+        "cordova-plugin-whitelist": "1.3.1",
+        "com.googlemaps.ios": "2.1.1"
+    }
+}
